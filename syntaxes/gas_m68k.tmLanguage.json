@@ -129,7 +129,7 @@
       },
       {
         "name": "keyword.control.conditional.gas-m68k",
-        "match": "\\b\\.(else|elseif|endif|if)\\b"
+        "match": "\\b\\.(else|endif|(else)?if(def|n?b|n?c|eqs?|g[et]|l[et]|nes?|ndef|notdef))\\b"
       }
       ]
     }
